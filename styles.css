@@ -1,1 +1,55 @@
+body {
+    background-color: white;
+    font: 13px / 1.5 sans-serif;
+    margin: 0.3em 0
+}
 
+.nowrap {
+    white-space: nowrap;
+}
+
+.intro {
+  width: 100%;
+  height: auto;
+  background-color: #cdcdcd;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+}
+
+.projects {
+  background-color: #a9c9c9;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.project {
+  width: 25%;
+  text-align: center;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  border-top: .5px solid #aaa;
+}
+
+.footer ul, .footer ul li {
+    display: inline;
+    padding: 0;
+    margin: 0 10px;
+}
